@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="system">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEXORA — Contact Us</title>
+    <meta name="description" content="Get in touch with NEXORA about your next project, idea, or collaboration.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                NEXORA
+            </a>
+            
+            <nav class="desktop-nav">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Services</a>
+                <a href="#" class="nav-link">Projects</a>
+                <a href="#" class="nav-link active">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="icon-btn theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <!-- Icon replaced via JS based on theme -->
+                    <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+                </button>
+                <button class="icon-btn mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu" aria-expanded="false">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+    <div class="mobile-nav-drawer" id="mobile-drawer">
+        <div class="drawer-header">
+            <span class="logo">NEXORA</span>
+            <button class="icon-btn" id="close-menu-btn" aria-label="Close menu">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+        </div>
+        <nav class="mobile-nav">
+            <a href="#" class="nav-link">Home</a>
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Services</a>
+            <a href="#" class="nav-link">Projects</a>
+            <a href="#" class="nav-link active">Contact</a>
+        </nav>
+    </div>
+
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section container">
+            <div class="status-badge">
+                <span class="pulse-dot"></span> Usually replies within 24 hours
+            </div>
+            <h1 class="hero-title">Let's talk about your next idea.</h1>
+            <p class="hero-subtitle">Have a project, question, or opportunity?<br>Send us a message and we'll get back to you as soon as possible.</p>
+        </section>
+
+        <!-- Main Layout -->
+        <section class="contact-layout container">
+            
+            <!-- Left Column: Information -->
+            <div class="contact-info-col">
+                <div class="info-section">
+                    <h2>Get in touch</h2>
+                    <p class="text-secondary mb-6">We'd love to hear from you. Our friendly team is always here to chat.</p>
+                    
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                            </div>
+                            <div class="card-content">
+                                <h3>Email Us</h3>
+                                <p>hello@nexora.example</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                            </div>
+                            <div class="card-content">
+                                <h3>Call Us</h3>
+                                <p>+1 (000) 123-4567</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                            </div>
+                            <div class="card-content">
+                                <h3>Visit Us</h3>
+                                <p>NEXORA STUDIO<br>New York, USA</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="map-placeholder">
+                    <svg class="map-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span>United kingdom</span>
+                </div>
+
+                <div class="faq-section">
+                    <h3>Frequently Asked Questions</h3>
+                    <div class="accordion">
+                        <div class="accordion-item">
+                            <button class="accordion-trigger" aria-expanded="false">
+                                <span class="accordion-title">How quickly will I receive a response?</span>
+                                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <p>We typically review and respond to all inquiries within 24 business hours. Complex project requests may take slightly longer.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-trigger" aria-expanded="false">
+                                <span class="accordion-title">What information should I include?</span>
+                                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Please include your project timeline, estimated budget, and any specific requirements or inspirations you currently have in mind.</p>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <button class="accordion-trigger" aria-expanded="false">
+                                <span class="accordion-title">Do you work with international clients?</span>
+                                <svg class="accordion-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                            </button>
+                            <div class="accordion-content">
+                                <p>Yes, we collaborate with clients worldwide and are accustomed to navigating different time zones and cross-border communication.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="social-links-section">
+                    <h3>Follow us</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+                        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+                        <a href="#" aria-label="X (Twitter)"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4l16 16M4 20L20 4"/></svg></a>
+                        <a href="#" aria-label="Dribbble"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8.56 2.75c4.37 6.03 6.02 9.42 8.03 17.72m2.54-15.38c-3.72 4.35-8.94 5.66-16.88 5.85m19.5 1.9c-3.5-.93-6.63-.82-8.94 0-2.58.92-5.01 2.86-7.44 6.32"/></svg></a>
+                        <a href="#" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Form -->
+            <div class="contact-form-col">
+                
+                <!-- Success Panel (Hidden by default) -->
+                <div class="success-panel" id="success-panel" hidden>
+                    <div class="success-icon-wrap">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                    </div>
+                    <h3>Message received</h3>
+                    <p>Thanks for reaching out. Your message has been prepared successfully.</p>
+                    <p class="demo-note text-secondary">Note: This is a front-end demo. No message was sent to a real server.</p>
+                    <button class="btn btn-outline" id="btn-reset-success">Send Another Message</button>
+                </div>
+
+                <!-- Form Panel -->
+                <div class="form-panel" id="form-panel">
+                    <div class="form-header">
+                        <div class="progress-container">
+                            <div class="progress-bar-bg"><div class="progress-bar-fill" id="form-progress"></div></div>
+                            <span class="progress-text"><span id="progress-text">0</span>% completion</span>
+                        </div>
+                        <button class="btn-text btn-clear-draft" id="btn-clear-draft" hidden>Clear Draft</button>
+                    </div>
+
+                    <form id="contact-form" novalidate>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                                    <input type="text" id="name" name="name" placeholder="John Doe" required aria-describedby="name-error">
+                                </div>
+                                <span class="error-msg" id="name-error" aria-live="polite"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address <span class="required">*</span></label>
+                                <div class="input-wrapper">
+                                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                    <input type="email" id="email" name="email" placeholder="john@example.com" required aria-describedby="email-error">
+                                </div>
+                                <span class="error-msg" id="email-error" aria-live="polite"></span>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <div class="input-wrapper">
+                                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                                    <input type="tel" id="phone" name="phone" placeholder="+1 (555) 000-0000" aria-describedby="phone-error">
+                                </div>
+                                <span class="error-msg" id="phone-error" aria-live="polite"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <div class="input-wrapper">
+                                    <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                                    <input type="text" id="company" name="company" placeholder="Example Inc.">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="type">Project Type <span class="required">*</span></label>
+                            <div class="input-wrapper select-wrapper">
+                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="9" x2="20" y2="9"/><line x1="4" y1="15" x2="20" y2="15"/><line x1="10" y1="3" x2="8" y2="21"/><line x1="16" y1="3" x2="14" y2="21"/></svg>
+                                <select id="type" name="type" required aria-describedby="type-error">
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="web-design">Web Design</option>
+                                    <option value="web-dev">Web Development</option>
+                                    <option value="ui-ux">UI/UX Design</option>
+                                    <option value="branding">Branding</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <span class="error-msg" id="type-error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject <span class="required">*</span></label>
+                            <div class="input-wrapper">
+                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                                <input type="text" id="subject" name="subject" placeholder="How can we help?" required aria-describedby="subject-error">
+                            </div>
+                            <span class="error-msg" id="subject-error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="label-row">
+                                <label for="message">Message <span class="required">*</span></label>
+                                <span class="char-counter" id="char-counter">0 / 1000 characters</span>
+                            </div>
+                            <div class="input-wrapper textarea-wrapper">
+                                <svg class="input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                                <textarea id="message" name="message" placeholder="Tell us about your project..." rows="5" maxlength="1000" required aria-describedby="message-error"></textarea>
+                            </div>
+                            <span class="error-msg" id="message-error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="privacy" name="privacy" required aria-describedby="privacy-error">
+                                <span class="checkbox-custom"></span>
+                                <span>I agree to the <button type="button" class="btn-link" id="btn-privacy-modal">privacy policy</button> and understand this is a demo contact form. <span class="required">*</span></span>
+                            </label>
+                            <span class="error-msg" id="privacy-error" aria-live="polite"></span>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary" id="btn-submit">
+                                <span class="btn-text">Send Message</span>
+                                <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </button>
+                            <button type="button" class="btn btn-outline" id="btn-reset">Reset</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                    NEXORA
+                </a>
+                <p>Let's build something meaningful.</p>
+            </div>
+            
+            <div class="footer-links-grid">
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <a href="#">About</a>
+                    <a href="#">Services</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <a href="#">FAQ</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow</h4>
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">X</a>
+                    <a href="#">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="container footer-bottom">
+            <p>&copy; 2026 NEXORA</p>
+        </div>
+    </footer>
+
+    <!-- Privacy Modal -->
+    <div class="modal-overlay" id="privacy-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 id="modal-title">Privacy Notice</h2>
+                <button class="icon-btn close-modal-btn" aria-label="Close modal">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This website is a front-end demonstration.</p>
+                <p>Information entered into the form is temporarily stored in your browser's local storage for draft recovery purposes, but it is <strong>not transmitted to a real server</strong> by this demo.</p>
+                <p>Please do not enter real sensitive personal information or passwords.</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-primary close-modal-btn">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Container -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <script src="script.js" defer></script>
+
+</body>
+</html>
